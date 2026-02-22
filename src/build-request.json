@@ -1,0 +1,56 @@
+{
+  "kind": "build_request",
+  "title": "Implement progressive bird speed increase",
+  "projectName": "Flappy Bird",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Implement progressive speed increase mechanism where the bird's vertical velocity increases gradually as gameplay time progresses, making the game harder over time",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ],
+        "quotes": [
+          "The speed of bird step by step faster"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Bird vertical velocity increases at regular intervals during active gameplay",
+        "Speed increase is noticeable but not jarring to gameplay experience",
+        "Speed resets to initial value when game restarts after collision"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Add visual feedback to indicate speed level changes, such as a speed multiplier indicator or subtle UI notification when speed increases",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Player can see current speed level or multiplier",
+        "Visual feedback appears when speed tier changes",
+        "Indicator does not obstruct core gameplay view"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not change the backend implementation",
+    "Maintain existing Flappy Bird core mechanics (jumping, pipes, collision detection)",
+    "Preserve game playability - speed increases should be challenging but fair"
+  ],
+  "nonGoals": [
+    "Adding sound effects",
+    "Implementing high score persistence",
+    "Changing visual theme or colors",
+    "Adding multiplayer features"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

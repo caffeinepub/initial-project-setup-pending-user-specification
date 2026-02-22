@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Flappy Bird game with progressive difficulty - bird speed increases over time",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-implement-progressive-speed-increase-mechanism-where-the-bird-s-vertical-velocity-increases-gradually-as-gameplay-time-progresses-making-the-game-harder-over-time",
+      "title": "Implement progressive speed increase mechanism where the bird's vertical velocity increases gradually as gameplay time progresses, making the game harder over time",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-visual-feedback-to-indicate-speed-level-changes-such-as-a-speed-multiplier-indicator-or-subtle-ui-notification-when-speed-increases",
+      "title": "Add visual feedback to indicate speed level changes, such as a speed multiplier indicator or subtle UI notification when speed increases",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Implement progressive bird speed increase during gameplay",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "2d",
+  "projectName": "Initial project setup pending user specification",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

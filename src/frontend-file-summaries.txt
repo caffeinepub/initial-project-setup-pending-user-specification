@@ -1,0 +1,4 @@
+{
+  "frontend/src/App.tsx": "Complete Flappy Bird game with progressive speed increase mechanism that multiplies bird velocity and pipe speed every 10 seconds, includes visual speed indicator with animations, game over screen showing max speed reached, and full game controls via spacebar or click.",
+  "frontend/src/index.css": "Global styles with OKLCH color system and custom animations for the Flappy Bird game including pulse-glow effect for speed indicator and slide-in animation for speed-up notifications."
+}
