@@ -1,12 +1,11 @@
 # Specification
 
 ## Summary
-**Goal:** Implement progressive difficulty increase by gradually speeding up the bird's vertical velocity over time.
+**Goal:** Deploy the Flappy Bird game to production with the custom domain 'flappy-birds2025'.
 
 **Planned changes:**
-- Add mechanism to progressively increase bird's vertical velocity at regular intervals during gameplay
-- Add visual feedback showing current speed level or multiplier
-- Display notification when speed tier changes
-- Reset speed to initial value when game restarts after collision
+- Configure production deployment settings for the Internet Computer network
+- Set up the custom domain name 'flappy-birds2025'
+- Deploy the existing game without any code modifications
 
-**User-visible outcome:** The game becomes progressively harder as the bird moves faster over time, with a visible speed indicator showing the current difficulty level.
+**User-visible outcome:** The Flappy Bird game will be accessible to anyone on the internet via the production domain 'flappy-birds2025', with all existing gameplay features functioning correctly.

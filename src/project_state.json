@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 5,
+  "projectStateVersion": 7,
   "summary": "Flappy Bird game with progressive difficulty - bird speed increases over time",
   "architectural_notes": [],
   "known_issues": [],
@@ -19,6 +19,14 @@
       "title": "Add visual feedback to indicate speed level changes, such as a speed multiplier indicator or subtle UI notification when speed increases",
       "reqIds": [
         "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-configure-production-deployment-with-the-domain-name-flappy-birds2025",
+      "title": "Configure production deployment with the domain name 'flappy-birds2025'",
+      "reqIds": [
+        "REQ-3"
       ],
       "version": 1
     }

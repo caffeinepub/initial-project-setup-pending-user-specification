@@ -2,10 +2,10 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-implement-progressive-speed-increase-mechanism-where-the-bird-s-vertical-velocity-increases-gradually-as-gameplay-time-progresses-making-the-game-harder-over-time",
-      "featureTitle": "Implement progressive speed increase mechanism where the bird's vertical velocity increases gradually as gameplay time progresses, making the game harder over time",
+      "featureId": "feature-configure-production-deployment-with-the-domain-name-flappy-birds2025",
+      "featureTitle": "Configure production deployment with the domain name 'flappy-birds2025'",
       "files": [
-        "frontend/src/App.tsx"
+        "frontend/index.html"
       ],
       "components": [
         "core-infrastructure@1.0.2",
@@ -15,26 +15,7 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-1"
-      ],
-      "confidence": "high"
-    },
-    {
-      "featureId": "feature-add-visual-feedback-to-indicate-speed-level-changes-such-as-a-speed-multiplier-indicator-or-subtle-ui-notification-when-speed-increases",
-      "featureTitle": "Add visual feedback to indicate speed level changes, such as a speed multiplier indicator or subtle UI notification when speed increases",
-      "files": [
-        "frontend/src/App.tsx",
-        "frontend/src/index.css"
-      ],
-      "components": [
-        "core-infrastructure@1.0.2",
-        "shadcn-ui@1.0.0",
-        "build-template-react@1.0.0",
-        "initial-app@1.0.0",
-        "github-export-icp-cli@1.0.0"
-      ],
-      "testIds": [
-        "REQ-2"
+        "REQ-3"
       ],
       "confidence": "high"
     }

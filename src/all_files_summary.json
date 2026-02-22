@@ -1,14 +1,14 @@
 {
-  "backend/main.mo": "Empty Motoko actor with no functionality implemented.",
-  "feature_evidence.json": "Feature evidence report documenting two implemented features: progressive speed increase mechanism and visual speed feedback indicators, both with high confidence.",
-  "frontend-file-summaries.txt": "JSON summary describing App.tsx as a complete Flappy Bird game with speed mechanics and index.css containing custom animations for speed indicators.",
-  "frontend/index.css": "Tailwind CSS configuration with OKLCH color system defining CSS variables for light and dark themes.",
-  "frontend/index.html": "Basic HTML entry point with root div and module script loading main.tsx.",
-  "frontend/src/App.tsx": "Complete Flappy Bird game implementation with canvas rendering, progressive speed multiplier system that increases every 10 seconds, collision detection, scoring, and visual speed indicators.",
-  "frontend/src/hooks/useActor.ts": "React hook for managing backend actor instances with Internet Identity authentication, handling actor creation and query invalidation on identity changes.",
-  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login state, identity persistence, and AuthClient configuration.",
-  "frontend/src/index.css": "Tailwind CSS base styles with OKLCH color variables and custom keyframe animations (pulse-glow, slide-in) for Flappy Bird speed indicators.",
-  "frontend/src/main.tsx": "React application entry point setting up QueryClient, InternetIdentityProvider, and rendering the App component.",
-  "frontend/tailwind.config.js": "Tailwind configuration extending theme with OKLCH color system, custom border radius, animations (accordion-down/up), and typography/container-queries plugins.",
-  "project_state.json": "Project state tracking two completed features (progressive speed increase and visual feedback) for a 2D Flappy Bird game with one pending feature request."
+  "backend/main.mo": "Empty Motoko actor serving as the backend canister entry point.",
+  "feature_evidence.json": "Feature evidence report documenting the production deployment configuration with domain 'flappy-birds2025', linking to frontend/index.html and multiple components.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of three frontend files describing the complete Flappy Bird game implementation with progressive speed mechanics and visual indicators.",
+  "frontend/index.css": "Tailwind CSS configuration with OKLCH color system defining CSS custom properties for light and dark themes, including sidebar, chart, and UI component colors.",
+  "frontend/index.html": "HTML entry point for 'Flappy Birds 2025' with SEO meta tags, viewport configuration, and script reference to main.tsx.",
+  "frontend/src/App.tsx": "Complete Flappy Bird game component with canvas-based rendering, progressive speed multiplier that increases every 10 seconds, collision detection, pipe generation, and game state management.",
+  "frontend/src/hooks/useActor.ts": "React hook for managing ICP backend actor instances with authentication support, creating actors based on Internet Identity state and invalidating dependent queries on actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login state, identity persistence, and AuthClient lifecycle with configurable options.",
+  "frontend/src/index.css": "Tailwind base styles with OKLCH color variables for theming and custom keyframe animations (pulse-glow, slide-in) for the Flappy Bird speed indicator and notifications.",
+  "frontend/src/main.tsx": "React application entry point wrapping App with QueryClientProvider and InternetIdentityProvider for state management and authentication.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the theme with OKLCH color system, custom animations (accordion-down/up), container settings, and plugins for typography, container queries, and animations.",
+  "project_state.json": "Project state tracking document listing three implemented features (progressive speed increase, visual feedback, production deployment) and one pending feature request for bird speed mechanics."
 }
